@@ -11,6 +11,7 @@ import { server } from "../mocks/server";
 
 import App from "../components/App";
 
+
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
